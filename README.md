@@ -1,11 +1,11 @@
 # CasaTourism
 Android Application for Tourism in Casablanca
 
-![Alt text](/images/index.PNG?raw=true "Optional Title")
+![Alt text](/images/index.png?raw=true "Optional Title")
 
 Features
 
-![Alt text](/images/drawer.PNG?raw=true "Optional Title")
+![Alt text](/images/drawer.png?raw=true "Optional Title")
 
 Offers a list of monuments,restaurant and hotels in Casablanca.
 
