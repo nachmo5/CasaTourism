@@ -13,8 +13,8 @@ Offers a list of monuments,restaurant and hotels in Casablanca.
 
 Display details about the place, and a fragment of it's location in google maps
 
-![Alt text](/images/twin.png?raw=true "Optional Title")   ![Alt text](/images/maps.PNG?raw=true "Optional Title")
-![Alt text](/images/restaurants.PNG?raw=true "Optional Title")
+![Alt text](/images/twin.png?raw=true "Optional Title")   ![Alt text](/images/maps.png?raw=true "Optional Title")
+![Alt text](/images/restaurants.png?raw=true "Optional Title")
 
 Useful numbers ( police , ambulance...)
 
