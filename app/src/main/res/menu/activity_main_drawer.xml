@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Acceuil" />
+        <item
+            android:id="@+id/monuments"
+            android:icon="@drawable/ic_monuments"
+            android:title="Monuments" />
+        <item
+            android:id="@+id/hotels"
+            android:icon="@drawable/ic_hotels"
+            android:title="Hotels" />
+        <item
+            android:id="@+id/restos"
+            android:icon="@drawable/ic_restos"
+            android:title="Restaurants" />
+        <item
+            android:id="@+id/nums"
+            android:icon="@drawable/ic_nums"
+            android:title="Numéro Importants" />
+
+        <item
+            android:id="@+id/circuits"
+            android:icon="@drawable/ic_circuits"
+            android:title="Circuits" />
+    </group>
+
+
+</menu>

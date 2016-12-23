@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    tools:context=".Converter"
+    android:weightSum="1"
+    android:layout_marginTop="150dp"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Spinner
+            android:layout_width="163dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner_currency"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+
+            android:entries="@array/rates" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:src="@drawable/rightarrow"
+            android:id="@+id/button_toggle"
+            android:layout_marginLeft="20dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView_dirham"
+            android:text="Dirham"
+            android:gravity="center"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="149dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/editText_incurrency" />
+
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_converted"
+            android:textColor="#2374d0"
+            android:gravity="center"
+            android:layout_gravity="top|center"
+            android:textSize="20dp"
+            android:layout_weight="0.35" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:text="Convertir"
+            android:id="@+id/button_convert"
+            android:onClick="onConvertir"
+            />
+        <Button
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:text="Annuler"
+            android:id="@+id/button_annuler"
+            android:onClick="onAnnuler"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+</LinearLayout>

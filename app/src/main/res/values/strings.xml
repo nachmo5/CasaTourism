@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">mtourismbeta</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="str_img1">Mosquee</string>
+    <string name="str_img2">Twin</string>
+    <string name="str_img3">Globe</string>
+    <string name="str_img4">Mall</string>
+    <string name="str_img5">Fontaine</string>
+    <string name="noteplaceholder">Ecrire une note</string>
+    <string-array name="rates">
+        <item>Euro</item>
+        <item>Dollars</item>
+        <item>British Pound</item>
+        <item>Yen</item>
+    </string-array>
+</resources>
